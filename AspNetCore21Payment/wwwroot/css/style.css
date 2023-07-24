@@ -1,0 +1,198 @@
+﻿
+@charset "utf-8";
+
+
+body {
+    font-family: Tahoma;
+    direction: rtl;
+}
+
+.main {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 450px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -o-border-radius: 8px;
+    -khtml-border-radius: 8px;
+    -ms-border-radius: 8px;
+    border-radius: 8px;
+    border: 2px #9d0000 solid;
+    padding: 10px 14px 5px 14px;
+    -moz-box-shadow: 0 1px 20px #9d0000;
+    -webkit-box-shadow: 0 1px 20px #9d0000;
+    -ms-box-shadow: 0 1px 20px #9d0000;
+    -o-shadow: 0 1px 20px #9d0000;
+    -khtml-shadow: 0 1px 20px #9d0000;
+    box-shadow: 0 1px 20px #9d0000;
+}
+
+
+
+.banner {
+    display: block;
+    margin: auto;
+    margin-top: 1px;
+    width: 350px;
+}
+
+.title {
+    margin: -70px 0 0 0;
+    min-height: 65px;
+    font-size: 20px;
+    color: #039;
+    -ms-text-shadow: -1px 3px 10px #b8860b;
+    -webkit-text-shadow: -1px 3px 10px #b8860b;
+    -moz-text-shadow: -1px 3px 10px #b8860b;
+    -o-text-shadow: -1px 3px 10px #b8860b;
+    -khtml-text-shadow: -1px 3px 10px #b8860b;
+    text-shadow: -1px 3px 10px #b8860b;
+    text-align: center;
+    font-family: "Yekan";
+}
+
+.specification {
+    margin: 12px 0 0 0;
+    padding: 5px 5px 5px 0;
+    /*overflow: hidden;*/
+    font-family: "Yekan";
+}
+
+.form-control {
+    display: block;
+    padding-right: 10px;
+    width: 100%;
+    height: 34px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+
+.btn-payment {
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 8px;
+    /*display: inline-block;*/
+    text-decoration: none;
+    width: 100px;
+    height: 40px;
+    color: #FFF;
+    background-color: #F00;
+    background: -webkit-linear-gradient(#06F, #03C);
+    background: -moz-linear-gradient(#06F, #03C);
+    background: linear-gradient(#06F, #03C);
+    border: 0 solid #9D0000;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Yekan";
+}
+
+    .btn-payment:hover {
+        color: #FF0;
+        -moz-box-shadow: 0px 1px 20px #00F;
+        -o-box-shadow: 0px 1px 20px #00F;
+        -khtml-box-shadow: 0px 1px 20px #00F;
+        -webkit-box-shadow: 0px 1px 20px #00F;
+        -ms-box-shadow: 0px 1px 20px #00F;
+        box-shadow: 0px 1px 20px #00F;
+    }
+
+.btn-return {
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 12px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100px;
+    height: 25px;
+    color: #FFF;
+    background-color: #F00;
+    background: -webkit-linear-gradient(#06F, #03C);
+    background: -moz-linear-gradient(#06F, #03C);
+    background: linear-gradient(#06F, #03C);
+    border: 0 solid #9D0000;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Yekan";
+}
+
+    .return:hover {
+        color: #FF0;
+        -moz-box-shadow: 0 1px 20px #00F;
+        -o-box-shadow: 0 1px 20px #00F;
+        -khtml-box-shadow: 0 1px 20px #00F;
+        -webkit-box-shadow: 0 1px 20px #00F;
+        -ms-box-shadow: 0 1px 20px #00F;
+        box-shadow: 0 1px 20px #00F;
+    }
+
+table {
+    width: 100%;
+}
+
+
+.error {
+    text-align: center;
+    font-size: 12px;
+    color: #F00;
+}
+
+.footer {
+    padding: 5px 0 5px 0;
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 475px;
+    height: 100px;
+    text-align: center;
+    font-size: 12px;
+    color: #00F;
+    border: 1px solid #228b22;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 30px #b8860b;
+    font-family: "Yekan";
+}
+
+    .footer a {
+        color: green;
+        font-size: 12px;
+    }
+
+.lbl {
+    line-height: 30px;
+    border-bottom: 1px solid red;
+    width: 110px !important;
+    font-size: 16px;
+    color: #228b22;
+}
+
+.value {
+    border-bottom: 1px solid #228b22;
+    font-size: 14px;
+    color: #0066ff;
+}

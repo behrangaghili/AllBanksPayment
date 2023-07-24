@@ -1,0 +1,69 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>پرداخت</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+   
+    <meta name="description" content="درگاه پرداخت" />
+    <link href="~/css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <form asp-controller="Pay" asp-action="Index" method="post">
+        <div class="main">
+         
+            <br />
+            @*<div class="title">Payment Test</div>*@
+            <div class="specification">
+                <table>
+                    <tr>
+                        <td class="value">
+                            <span>مبلغ به ریال:</span>
+                            <input type="text" id="Price" name="Price" class="form-control" required="" />
+                            <br />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="lbl">
+                            <span style="font-size: 18px;">
+                                انتخاب درگاه پرداخت
+                            </span>
+                            <br />
+                            <input type="radio" name="dargahpardakht" value="پارسیان" checked="" />
+                            <img src="~/Images/parsian.png" width="50" height="50" style="padding-left: 60px;" />
+                            <input type="radio" name="dargahpardakht" value="ملی" />
+                            <img src="~/Images/melli.png" width="50" height="50" style="padding-left: 60px;" />
+                            <input type="radio" name="dargahpardakht" value="سامان" />
+                            <img src="~/Images/saman.png" width="50" height="50" style="padding-left: 60px;" />
+                            <br />
+                            <input type="radio" name="dargahpardakht" value="ملت" />
+                            <img src="~/Images/mellat.png" width="50" height="50" style="padding-left: 60px;" />
+                            <input type="radio" name="dargahpardakht" value="پی" />
+                            <img src="~/Images/payir.png" width="50" height="50" style="padding-left: 60px;" />
+                            <input type="radio" name="dargahpardakht" value="زرین پال" />
+                            <img src="~/Images/zarinpal.png" width="50" height="50" style="padding-left: 60px;" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="error">
+                            @Html.Raw(ViewData["Message"])
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center;">
+                            <input type="submit" value="پرداخت" class="btn-payment">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        
+    </form>
+</body>
+</html>
